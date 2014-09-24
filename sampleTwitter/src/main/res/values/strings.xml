@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SampleTwitter</string>
+    <string name="title_tweet_detail">Tweet Detail</string>
+
+
+    <!-- Should ideally be stored in an encoded format, like base64 encoding-->
+    <string name="api_key">api_key</string>
+    <string name="api_sec">api_sec</string>
+
+    <string name="access_token">access_token</string>
+    <string name="access_token_secret">access_token_secret</string>
+
+</resources>

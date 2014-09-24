@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tweet_item_margin">5dp</dimen>
+    <dimen name="thumb_width">48dp</dimen>
+    <dimen name="thumb_height">48dp</dimen>
+
+    <dimen name="detail_thumb_height">100dp</dimen>
+</resources>

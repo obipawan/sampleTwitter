@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/tweet_item_margin">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/user_thumb"
+        android:layout_width="@dimen/thumb_width"
+        android:layout_height="@dimen/thumb_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/tweet_item_margin"/>
+
+    <TextView
+        android:id="@+id/user_screen_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/tweet_item_margin"
+        android:layout_marginBottom="@dimen/tweet_item_margin"
+        android:layout_toRightOf="@+id/user_thumb"
+        android:singleLine="true"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/tweet_item_margin"
+        android:layout_toRightOf="@+id/user_screen_name"/>
+
+    <TextView
+        android:id="@+id/tweet_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/user_thumb"
+        android:layout_below="@+id/user_name"/>
+
+</RelativeLayout>
